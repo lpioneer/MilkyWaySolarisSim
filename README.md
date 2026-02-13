@@ -1,4 +1,4 @@
-배포 URL: https://lpioneer.github.io/MilkyWaySolarisSim/
+배포 URL: https://lpioneer.github.io/MilkyWaySolarisSim
 
 # MilkyWaySolarisSim
 
