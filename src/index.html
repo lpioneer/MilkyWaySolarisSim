@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singularity</title>
+    <link rel="icon" href="./images/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PQNGKVXV');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQNGKVXV"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<canvas id="preloader"></canvas>
+
+<div id="debug-panel" style="width: 400px;"></div>
+
+<div id="ui-controls" style="position: absolute; top: 20px; right: 20px; z-index: 100; display: flex; flex-direction: column; gap: 10px;">
+    <button id="viewToggle" style="padding: 10px 20px; font-size: 14px; background: rgba(0,0,0,0.7); color: white; border: 1px solid #444; cursor: pointer; border-radius: 4px;">
+        Switch to Solar System View
+    </button>
+    <button id="particleToggle" style="padding: 10px 20px; font-size: 14px; background: rgba(80,0,80,0.8); color: white; border: 1px solid #a4a; cursor: pointer; border-radius: 4px;">
+        Hide Galaxy Particles
+    </button>
+</div>
+
+<canvas class="webgl"></canvas>
+
+<script type="module" src="./script.js"></script>
+</body>
+</html>
