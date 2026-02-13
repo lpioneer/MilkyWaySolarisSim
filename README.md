@@ -1,3 +1,5 @@
+배포 URL: https://lpioneer.github.io/MilkyWaySolarisSim/
+
 # MilkyWaySolarisSim
 
 블랙홀 시각화(기존 Singularity 기반)에 우리은하/태양계 시뮬레이션을 결합한 WebGPU 프로젝트입니다.  
